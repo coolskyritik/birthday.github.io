@@ -4,19 +4,23 @@ body{
     background-color:floralwhite;
 }
 
-h1{
+p{
     margin-top: 50px;
-    margin-left:-320px;
+    text-align: center;
     font-size: 40px;
     font-family: 'Karla', sans-serif;
-    font-weight: lighter;
+    font-family: 'Sofia';font-size: 22px;
+}
+}
     text-align: center;
 }
-
+.a2{
+    margin-top: 820px;
+}
 .slider-frame{
     overflow: hidden;
     height: 520px;
-    width: 100%;
+    width: ;
     
     
     
@@ -33,15 +37,15 @@ h1{
     40% {left: 2400px;}
     50% {left: 2400px;}
     60% {left: 2400px;}
-    70% {left: 0px;}
-    80% {left: 0px;}
+    70% {left: 1200px;}
+    80% {left: 1200px;}
     90% {left: 0px;}
     100% {left:0px;}
 }
 
 .slide-images{
-    width: 4000px;
-    height: 800px;
+    width: 32000px;
+    
     margin: 0 0 0 -2400px;
     position: relative;
     -webkit-animation-name: slide_animation;
@@ -52,8 +56,8 @@ h1{
 }
 
 .img-container{
-    height: 800px;
-    width: 1200px;
+    height: 300px;
+    width: 1300px;
     position: relative;
     float: left;
 }
@@ -93,3 +97,4 @@ smalltext{
      
     font-size: 16px; 
 } 
+
